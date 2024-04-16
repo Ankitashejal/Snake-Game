@@ -106,7 +106,7 @@ public class HelloApplication extends Application {
     }
 
     private void run(GraphicsContext gc) {
-        if (gameOver || score >= 30) {
+        if (gameOver || score >= 25) {
             gc.setFill(Color.RED);
             gc.setFont(new Font("Digital-7", 70));
             gc.fillText("Game Over", WIDTH / 3.5, HEIGHT / 2);
